@@ -1,0 +1,18 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+  
+}
+.imageContainer > img{
+    width: 159px;
+    height: 232px;
+}
+.image-container{
+    width:159px;
+    height:259px;
+}
