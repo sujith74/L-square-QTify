@@ -3,6 +3,9 @@ import React from "react";
 // import Button from "../Button/Button";
 import Logo from "../Logo/Logo";
 import styles from "./Navbar.module.css";
+import { Button } from "@mui/material";
+import Search from '../Search/Search'
+
 
 function Navbar() {
   return (
@@ -10,12 +13,13 @@ function Navbar() {
     <nav className={styles.navbar}>
       {/* <Link to="/"> */}
          <Logo />
+         {/* </Link> */}
       
-      {/* <Search
+      <Search
         placeholder="Search a song of your choice"
         // searchData={searchData}
-      /> */}
-      {/* <Button>Give Feedback</Button> */}
+      />
+      <Button className={styles.button}>Give Feedback</Button>
     </nav>
     </>
   );
