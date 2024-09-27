@@ -4,6 +4,7 @@ import headphones from '../assets/hero_headphones.png';
 import Chip from '@mui/material/Chip';
 import axios from 'axios';
 import { useState } from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { Grid } from "@mui/material";
 
 
