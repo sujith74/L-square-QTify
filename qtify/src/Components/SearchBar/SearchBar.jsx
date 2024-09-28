@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./SearchBar.module.css";
-import { ReactComponent as SearchIcon } from "../../Assets/Search icon.svg";
+import {  SearchIcon } from "../../Assets/Searchicon.svg";
 // import useComponentVisible from "./../../Hooks/useComponentVisible";
 import useComponentVisible from "../Hooks/useComponentVisible";
 import MenuItems from "../MenuItems/MenuItems";
