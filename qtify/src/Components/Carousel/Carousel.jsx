@@ -20,15 +20,17 @@ function Carousel({ data, renderCardComponent }) {
       <Swiper
         initialSlide={0}
         modules={{ Navigation }}
-        slidesPerView={"auto"}
+        slidesPerView={7}
         spaceBetween={10}
+        className={styles.slide}
         allowTouchMove
+        // gap={5}
       >
         <Controls data={data} />
         <LeftButton />
         <RightButton />
         {data?.map((item) => (
-          <SwiperSlide key={item?.id}>{renderCardComponent(item)}</SwiperSlide>
+          <SwiperSlide key={item?.id} >{renderCardComponent(item)}</SwiperSlide>
         ))}
       </Swiper>
     </div>

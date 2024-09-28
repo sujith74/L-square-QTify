@@ -33,7 +33,10 @@ const Section = ({ title, data, type, header, loadingState }) => {
             </div>
           ) : (
             <Carousel
+           
               data={data}
+               className={styles.slide}
+              
               renderCardComponent={(item) => <Card data={item} type={type} />}
             />
           )}
