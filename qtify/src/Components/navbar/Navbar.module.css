@@ -7,7 +7,7 @@
 }
 
 #logo {
-  margin-right: 25px;
+  margin-right: 100px;
   cursor: pointer;
 }
 
@@ -16,8 +16,8 @@
 }
 
 .navbar {
-  width: 90vw;
-  margin: auto auto;
+  width: 100vw;
+  /* margin: auto auto; */
   height: 4.9333rem;
   display: flex;
   padding: 0;
