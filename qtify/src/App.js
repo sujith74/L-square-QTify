@@ -1,21 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import Hero from './Hero/Hero';
-import Card from './Card/Card';
-import Logo from './Logo/Logo';
-import Navbar from './Navbar/Navbar';
+// import { Route, Routes } from 'react-router-dom';
+import LandingPage from './Pages/Landing/LandingPage.jsx';
 
 
 function App() {
   return (
-
-    <>
-<Navbar/>
-    <Hero></Hero>
-    <Card />
-
-    </>
-    
+    <div className="App">
+      {/* <Routes>
+        <Route path='/' element={<LandingPage/>} />
+      </Routes> */}
+      <LandingPage/>
+      
+    </div>
   );
 }
 
