@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./SearchBar.module.css";
-import {  SearchIcon } from "../../Assets/Searchicon.svg";
+import {  ReactComponent as SearchIcon } from "../../Assets/Searchicon.svg";
 // import useComponentVisible from "./../../Hooks/useComponentVisible";
 import useComponentVisible from "../Hooks/useComponentVisible";
 import MenuItems from "../MenuItems/MenuItems";
@@ -32,7 +32,8 @@ function SearchBar({ placeholder, data }) {
   return (
     <div>
       <div onClick={() => setIsComponentVisible(true)}>
-        <form className={styles.wrapper}>
+        <form className={styles.wrapper}
+        onSubmit={(e) => e.preventDefault()}>
           <input
             className={styles.search}
             placeholder={placeholder}
