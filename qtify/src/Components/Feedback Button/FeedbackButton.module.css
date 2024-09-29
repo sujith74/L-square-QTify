@@ -4,9 +4,21 @@
     background-color: #121212;
     border-radius: 10px;
     border: none;
-    font-size: 16px;
+    /* font-size: 16px; */
     color: #34c94b;
     padding: 10px 20px;
+    font-family: "Poppins";
+    /* font-weight: 500; */
+    font-style: normal;
+    /* line-height: normal; */
+    text-align: center;
+    font-family: Poppins;
+ font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0.25px;
+text-align: center;
+
   }
   
   @media (max-width: 576px) {
@@ -15,6 +27,12 @@
       font-size: 16px;
       padding: 10px 12px;
       font-weight: 400;
+    font-family: Poppins;
+    color: #34c94b;
+    background-color: #121212;
+    border-radius: 10px;
+
+
     }
   }
   
@@ -23,6 +41,12 @@
     .nav_link {
       font-size: 16px;
       padding: 10px 20px;
+      font-weight: 400;
+      font-family: Poppins;
+      color: #34c94b;
+      background-color: #121212;
+      border-radius: 10px;
+  
     }
   }
   

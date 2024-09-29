@@ -16,8 +16,8 @@
 }
 
 .navbar {
-  width: 100vw;
-  /* margin: auto auto; */
+  width: 90vw;
+  margin: auto auto;
   height: 4.9333rem;
   display: flex;
   padding: 0;
