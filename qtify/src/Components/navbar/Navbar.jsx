@@ -5,27 +5,37 @@ import SearchBar from "../SearchBar/SearchBar.jsx";
 import FeedbackButton from "../Feedback Button/FeedbackButton";
 // import { useNavigate } from "react-router-dom";
 
-function Navbar({ data, logo = false, search = false, feedback = false }) {
+function NavbarContainer() {
+    // { data, logo = false, search = false, feedback = false }
   // const navigate = useNavigate();
+
   return (
     <div className={styles.wrapper}>
-      <nav className={styles.navbar}>
+      <nav className={styles.navbarContainer}>
       {/* onClick={() => navigate(`/`)} */}
         <div className={styles.logoWrapper} >
-          {logo ? <Logo id={styles.logo} /> : null}
+          {/* {logo ? <Logo id={styles.logo} /> : null} */}
+          <Logo id={styles.logo} /> 
         </div>
-        {search ? (
+        {/* {search ? (
           <div className={styles.searchWrapper}>
             <SearchBar
               placeholder="Search a song of your choice"
               data={data}
             />
           </div>
-        ) : null}
-        <FeedbackButton feedback={feedback} />
+        ) : null} */}
+        <div className={styles.searchWrapper}>
+            <SearchBar
+              placeholder="Search a song of your choice"
+              // data={data}
+            />
+          </div>
+        <FeedbackButton  />
+        {/* feedback={feedback} */}
       </nav>
     </div>
   );
 }
 
-export default Navbar;
+export default NavbarContainer;
