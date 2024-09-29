@@ -1,13 +1,14 @@
 .wrapper {
-  background-color: var(--color-primary);
-  border: 2px solid var(--color-primary);
-  padding-top: 5px;
-  background-color: #34C94B;
+  /* background-color: var(--color-primary); */
+  /* border: 2px solid #121212; */
+  /* padding-top: 5px; */
+  
 
 }
 
 #logo {
-  margin-right: 100px;
+  display: flex;
+  margin: 14px;
   cursor: pointer;
 }
 
@@ -16,13 +17,14 @@
 }
 
 .navbar {
-  width: 90vw;
-  margin: auto auto;
-  height: 4.9333rem;
+  width: 95vw;
+  /* margin: auto auto; */
+  height: 74px;
   display: flex;
-  padding: 0;
+  padding: 0 32px;
   align-items: center;
   justify-content: space-between;
+  background-color: #34C94B;
 }
 
 .nav_link {

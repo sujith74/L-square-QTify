@@ -17,7 +17,7 @@ function Navbar({ data, logo = false, search = false, feedback = false }) {
         {search ? (
           <div className={styles.searchWrapper}>
             <SearchBar
-              placeholder="Search a album of your choice"
+              placeholder="Search a song of your choice"
               data={data}
             />
           </div>

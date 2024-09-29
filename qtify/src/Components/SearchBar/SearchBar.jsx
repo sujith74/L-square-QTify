@@ -46,7 +46,7 @@ function SearchBar({ placeholder, data }) {
         </form>
       </div>
 
-      {isComponentVisible && (
+      {/* {isComponentVisible && (
         <div className={styles.dropdownWrapper} ref={ref}>
           {filteredOptions?.length ? (
             <MenuItems albums={filteredOptions} />
@@ -56,7 +56,7 @@ function SearchBar({ placeholder, data }) {
             </div>
           ) : null}
         </div>
-      )}
+      )} */}
     </div>
   );
 }
