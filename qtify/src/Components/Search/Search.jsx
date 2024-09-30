@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import styles from "./SearchBar.module.css";
+import styles from "./Search.module.css";
 import {  ReactComponent as SearchIcon } from "../../Assets/Searchicon.svg";
 // import useComponentVisible from "./../../Hooks/useComponentVisible";
 import useComponentVisible from "../Hooks/useComponentVisible";
 import MenuItems from "../MenuItems/MenuItems";
 
-function SearchBar({ placeholder, data }) {
+function Search({ placeholder, data }) {
   const [inputValue, setInputValue] = useState("");
   const [filteredOptions, setFilteredOptions] = useState([]);
 
@@ -61,4 +61,4 @@ function SearchBar({ placeholder, data }) {
   );
 }
 
-export default SearchBar;
+export default Search;

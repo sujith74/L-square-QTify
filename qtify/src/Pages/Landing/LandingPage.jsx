@@ -6,8 +6,8 @@ import {
 } from "../../api/api.js";
 import styles from "./LandingPage.module.css";
 import Navbar from "../../Components/navbar/Navbar.jsx";
-import SearchBar from "../../Components/SearchBar/SearchBar.jsx";
-import HeroSection from "../../Components/Hero/HeroSection.jsx";
+import Search from "../../Components/Search/Search.jsx";
+import Hero from "../../Components/Hero/Hero.jsx";
 import Section from "../../Components/Section/Section.jsx";
 import Footer from "../../Components/Footer/Footer.jsx";
 import CustomAccordion from "../../Components/Accordion/CustomAccordion.jsx";
@@ -77,12 +77,12 @@ function LandingPage() {
     <>
       <Navbar logo={true} search={true} feedback={true} />
       <div className={styles.landingPageSearchWrapper}>
-        <SearchBar
-          placeholder="Search a album of your choice"
+        {/* <Search
+          placeholder="Search a song of your choice"
           data={dropdownData}
-        />
+        /> */}
       </div>
-      <HeroSection />
+      <Hero />
       <div className={styles.sectionWrapper}>
         <Section
           title="Top Albums"

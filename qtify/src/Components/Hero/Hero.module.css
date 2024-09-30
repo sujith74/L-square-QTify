@@ -13,6 +13,16 @@
   justify-content: center;
   width: 100%;
 }
+.hero{
+   display: flex;
+  justify-content: center;
+  background-color: #121212;
+  color: #fff;
+  
+  margin-top: 2%;
+
+
+}
 .banner {
   display: flex;
   flex-direction: column;
